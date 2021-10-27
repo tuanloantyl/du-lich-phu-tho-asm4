@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/image/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+.col h1 {
+    color: white;
+    font-size: 100px;
+}
+
+.col p {
+    color: white;
+    font-size: 20px;
+}
+
+.col a {
+    text-decoration: none;
+}
+
+button {
+    width: 180px;
+    color: black;
+    font-size: 16px;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.card {
+    width: 250px;
+    height: 280px;
+    display: inline-block !important;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    border: none;
+}
+
+.card1 {
+    background-image: url("../assets/image/den-hung-index.jpg");
+}
+
+.card2 {
+    background-image: url("../assets/image/dam-ao-chau-index.jpg");
+}
+
+.card3 {
+    background-image: url("../assets/image/doi-che-long-coc-index.jpg");
+}
+
+.card4 {
+    background-image: url("../assets/image/xuan-son-index.jpg");
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h5 {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.card p {
+    color: white;
+    text-shadow: 0 0 8px black;
+    font-size: 18px;
+}
+
+.footer {
+    padding: 20px 20px;
+    background-image: linear-gradient(rgb(41, 82, 126), rgb(81, 24, 135));
+    color: white;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer h4 {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer p {
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 35px;
+    cursor: pointer;
+}
