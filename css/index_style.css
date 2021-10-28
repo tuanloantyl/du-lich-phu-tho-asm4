@@ -66,9 +66,10 @@ nav ul li a {
 }
 
 .col a {
+    display: inline-block;
     text-decoration: none;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 10px 15px;
+    width: 250px !important;
 }
 
 button {
@@ -91,8 +92,6 @@ button {
     box-sizing: border-box;
     cursor: pointer;
     background-position: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
     background-size: cover;
     transition: transform 0.5s;
     border: none;
