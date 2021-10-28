@@ -94,6 +94,8 @@ button {
     background-size: cover;
     transition: transform 0.5s;
     border: none;
+    line-height: 280px;
+    text-align: center;
 }
 
 .card1 {
@@ -121,6 +123,9 @@ button {
     font-size: 22px;
     color: white;
     text-shadow: 0 0 5px black;
+    vertical-align: middle;
+    line-height: 1.5;
+    display: inline-block;
 }
 
 .card p {
