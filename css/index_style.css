@@ -67,7 +67,8 @@ nav ul li a {
 
 .col a {
     text-decoration: none;
-    margin: 10px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 button {
